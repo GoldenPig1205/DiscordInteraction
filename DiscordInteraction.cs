@@ -9,6 +9,7 @@ using DiscordInteraction.Discord;
 using MEC;
 
 using static DiscordInteraction.Variables.Protocol;
+
 using static DiscordInteraction.IEnumerators.ServerManagers;
 
 namespace DiscordInteraction
@@ -29,6 +30,7 @@ namespace DiscordInteraction
 
             WebhookURL = Config.WebhookURL;
             BotAPIServer = Config.BotAPIServer;
+            NewReleaseUpdateMessage = Config.NewReleaseUpdateMessage;
 
             Webhook webhook = new Webhook();
             webhook.OnEnabled();

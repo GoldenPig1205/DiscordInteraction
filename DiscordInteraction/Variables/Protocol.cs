@@ -10,5 +10,6 @@ namespace DiscordInteraction.Variables
     {
         public static string WebhookURL;
         public static string BotAPIServer;
+        public static string NewReleaseUpdateMessage;
     }
 }
