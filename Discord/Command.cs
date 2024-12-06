@@ -81,10 +81,9 @@ namespace DiscordInteraction.Discord
 
                 result = string.Join("\n", matches);
 
-                if (NewReleaseUpdateMessage.Count() > 0)
+                foreach (var player in Player.List)
                 {
-                    foreach (var player in Player.List)
-                        player.AddBroadcast(10, NewReleaseUpdateMessage);
+                    player.AddBroadcast(10, NewReleaseUpdateMessage);
                 }
             }
 
