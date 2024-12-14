@@ -46,7 +46,7 @@ namespace DiscordInteraction.Discord
 
             Exiled.Events.Handlers.Server.RoundStarted += OnRoundStarted;
             Exiled.Events.Handlers.Server.RoundEnded += OnRoundEnded;
-            Exiled.Events.Handlers.Server.SelectingRespawnTeam += OnSelectingRespawnTeam;
+            // Exiled.Events.Handlers.Server.SelectingRespawnTeam += OnSelectingRespawnTeam;
 
             Exiled.Events.Handlers.Player.Dying += OnDying;
             Exiled.Events.Handlers.Player.Handcuffing += OnHandcuffing;
