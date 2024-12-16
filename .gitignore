@@ -374,3 +374,9 @@ _site/
 
 # JSON Schemas
 JSON/
+
+# DiscordInteraction Project Files
+/.vs
+/bin
+/obj
+/Properties
